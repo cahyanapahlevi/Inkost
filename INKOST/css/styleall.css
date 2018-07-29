@@ -1,0 +1,128 @@
+
+
+/*	ABOUT US
+------------------------------*/
+.aboutus >.container
+{
+    padding:100px 0px;
+}
+
+ul.aboutList{ margin: 30px 0 0 ;}
+ul.aboutList li{
+	display: block;
+	font-size: 1.1em;
+	line-height: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+ul.aboutList li span{ 
+	margin-right: 10px;
+}
+
+.sectionTitle{
+	padding:20px 0;/*common style*/
+}
+.sectionTitle h2,
+.sectionTitle  h2{
+	font-weight: 300;
+}
+.sectionTitle .line{
+	
+	height: 5px;
+	width: 120px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.sectionTitle hr {
+	border-top: 5px solid;
+	width: 100px;
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+	left:0%;
+}
+/*--//about as--*/
+
+/*Footer
+------------------------------*/
+.footer
+{
+ background-color:#012D36;
+ color:#ccc;
+}
+.footer>.container
+{
+   padding:30px 0px; 
+}
+
+.footer ul {
+  padding: 0px;
+  margin: 0px;
+}
+.footer-info li {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer .footer-social-icons li a {
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    color: #aaa;
+    border: 1px solid #8c8a8a;
+    border-radius: 50%;
+    margin: 30px 3px 0px 3px;
+    font-size: 13px;
+}
+
+.footer .footer-info li a {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 13px;
+  color: #686868;
+  margin: 0 20px;
+}
+.footer .footer-social-icons li {
+  list-style: none;
+  display: inline-block;    
+}
+.footer .footer-social-icons li a {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  text-align: center;
+  line-height: 36px;
+  color: #aaa;
+  border: 1px solid #8c8a8a;
+  border-radius: 50%;
+  margin: 30px 3px 0px 3px;
+  font-size: 13px;
+}
+.footer .footer-social-icons li a:hover {
+  color: #000;
+  border-color:#000;
+  transition: all 1s;
+}
+/*SUB FOOTER
+-------------------------------------------------*/
+.sub-footer {
+  padding: 20px 0px!important;
+  background-color: #333!important	;
+}
+
+.sub-footer p {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #aaa;
+}
+.sub-footer .designed-by p {
+  float: right;
+}
+.sub-footer a{
+    font-size:9px;
+}

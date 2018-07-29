@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+/* Menu Diam */
+	#diam{
+    width: 25%;
+    height:auto;
+    position:absolute;
+    background:#CCC;
+    top: 0px;
+    right: 0px;
+	height:100%;
+}
+        
+@media screen{
+  body>#diam{
+   position:fixed;
+  }
+}
+
